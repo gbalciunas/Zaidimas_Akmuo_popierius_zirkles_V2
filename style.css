@@ -1,0 +1,101 @@
+body {
+    background: url("https://images.unsplash.com/photo-1600339241801-67eda1e7f6e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.player {
+
+   margin-top: 30px;
+   text-align: center;
+    font-size: 3em;
+    color: #efefef;
+    text-shadow:  20px -10px 3px rgb(38, 36, 36);
+}
+
+.computer {
+    text-align: center;
+    font-size: 3em;
+    color: #efefef;
+    text-shadow: 20px -10px 3px rgb(38, 36, 36);
+}
+
+ button {
+    
+    box-shadow: 20px -10px 10px 10px rgb(38, 36, 36);  
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+   background: #efefef;
+
+ }
+
+  button:hover {
+      background: #a5a7a1;
+      color: #efefef;
+      cursor: pointer;
+  }
+
+ .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.playerChoice  {
+       
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+ 
+}
+
+.computerChoice {
+
+    display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+}
+
+
+ i {
+    margin: 50px;
+    color: #efefef;
+    font-size: 75px;
+    box-shadow: 20px -10px 10px 10px rgb(38, 36, 36);
+    box-sizing: border-box;
+    /* border: 10px solid #02c5c1; */
+    /* border: 10px solid #f1613c; */
+
+    border: 10px solid #efefef; 
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 100%;
+    background-color: #a5a7a1;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#player-rock:hover {
+    transform: scale(1.25); 
+ /*   border: 10px solid #02c5c1;
+    color: #02c5c1; */
+}
+
+#player-paper:hover {
+    transform: scale(1.25);
+   /* border: 10px solid #02c5c1; */
+}
+
+#player-scissors:hover {
+    transform: scale(1.25);
+  /*  border: 10px solid #02c5c1; */
+}
+
