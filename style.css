@@ -50,7 +50,7 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding-bottom: 10px;
+        
  
 }
 
@@ -59,7 +59,7 @@ body {
     display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding-top: 10px;
+        
 }
 
 
